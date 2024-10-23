@@ -1,0 +1,255 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: right;
+    height: 50px;
+}
+
+header h6 {
+    margin: 0;
+    font-size: 1.5em;
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    
+    margin-right: 60px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+   
+}
+
+/* Projects section */
+.project {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-left: 5px solid #333;
+
+}
+.projects{
+    display: flex;
+    padding-left: 30px;
+    height: 68.7vh;
+}
+ .project-item{
+    flex: 1 1 30%; /* Adjust the width as needed, e.g., 30% for three items per row */
+    margin: 10px; /* Adds space between project items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    text-align: center;
+} 
+a {
+    color: #333;
+}
+#about {
+    display: flex; /* Use flexbox for layout */
+    background-color:goldenrod; /* Light background color */
+    padding: 20px; /* Add padding for spacing */
+    height: 450px;
+}
+
+.about-container {
+    display: flex; /* Flex container for vertical alignment */
+    width: 100%; /* Full width */
+}
+
+.about-heading {
+    writing-mode: vertical-rl; /* Rotate the heading to vertical */
+    transform: rotate(180deg); /* Rotate back to readable format */
+    font-size: 56px; /* Adjust font size as needed */
+    width: 30%; /* Set width to 30% */
+    margin-right: 20px; /* Space between heading and content */
+    margin-bottom: 75px;
+}
+
+.about-content {
+    width: 70%; /* Set width to 70% */
+    padding-right: 60px;
+}
+
+/*.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    top: -90px; /* Moves the image up by 10 pixels */
+   /* display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}*/
+
+.intro-section {
+    background-image: url('./images/bg\ intro.avif'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 600px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    
+}
+
+.intro-image {
+    border-radius: 50%;
+    width: 500px; /* Adjust size as needed */
+    height: 500px; /* Adjust size as needed */
+    margin-bottom: 40px;
+    margin-left: 150px;
+    float: right;
+}
+
+.intro-content {
+    backdrop-filter: blur(5px); /* Optional: Adds as blur effect to the background */
+    padding: 20px;
+    float: right;
+}
+h1 {
+    font-size: 3em; /* Adjust size as needed */
+    line-height: 1.2; /* Adjust line height for spacing between lines */
+    text-align: center; /* Optional: centers  the text */
+}
+#skills {
+    background-color:#855e35;  /* Light background color */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Optional: Rounded corners */
+    text-align: center;
+}
+
+.skills-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 15px; /* Space between skill blocks */
+}
+
+.skill-block {
+    background-color: #333; /* Dark background for skill blocks */
+    color: #fff; /* White text color */
+    padding: 15px 20px; /* Padding inside each block */
+    border-radius: 5px; /* Rounded corners for blocks */
+    flex: 1 1 150px; /* Flexible size with a minimum width */
+    text-align: center; /* Center text inside blocks */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: background-color 0.3s; /* Smooth transition */
+
+}
+.skill-block:hover {
+    background-color: #ebb113; /* Change to your desired hover color */
+    color: white; /* Change text color on hover */
+}
+.contact-section {
+    position: relative; /* Position relative for absolute elements inside */
+    height: 400px; /* Set a height for the section */
+    color: #fff; /* White text color */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+    background-color: #0d3750; /* Change this to your desired background color */
+    padding: 20px; /* Optional: add padding */
+}
+.contact-heading {
+    font-weight: bold; /* Makes the heading bold */
+    color: white;
+}
+
+.contact-info {
+   /* justify-content: flex-end; /* Align items to the right */
+   
+
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    position:absolute; /* Position it over the map */
+    bottom: 20px; /* Adjust positioning */
+    left: 20%; /* Center horizontally */
+    transform: translateX(-50%); /* Center adjustment */
+    width: 80%; /* Control width of contact info */
+    max-width: 400px; /* Maximum width for better responsiveness */
+   /* margin-left: 160px;*/
+    
+}
+.education-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #1f1c1c;
+    background-image: url('C:\Users\MACFAST\Downloads\portfolio-main\portfolio\images\BGEDU.jpg'); /* Add your background image here */
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    background-image:
+}
+
+.education-item h3 {
+    margin: 0 0 10px;
+    color: #0056b3;
+}
+
+.education-item p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.icon {
+    color: #0056b3;
+    margin-right: 10px;
+}
+.education-item:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+/* Education Section Styles */
+#education {
+    background-color: #f7f7f7; /* Light background for the section */
+    padding: 40px; /* Extra padding*/
+    html {
+    scroll-behavior: smooth;
+}
