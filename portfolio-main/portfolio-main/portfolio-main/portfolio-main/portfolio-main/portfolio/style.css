@@ -1,0 +1,293 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: right;
+    height: 50px;
+}
+
+header h6 {
+    margin: 0;
+    font-size: 1.5em;
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    
+    margin-right: 60px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+   
+}
+
+/* Projects section */
+.project {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-left: 5px solid #333;
+
+}
+.projects{
+    display: flex;
+    padding-left: 30px;
+    height: 68.7vh;
+}
+ .project-item{
+    flex: 1 1 30%; 
+    margin: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+} 
+a {
+    color: #f8f1f1;
+}
+#about {
+    display: flex; 
+    background-color:goldenrod; 
+    padding: 20px; 
+    height: 450px;
+}
+
+.about-container {
+    display: flex; 
+    width: 100%; 
+}
+
+.about-heading {
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+    font-size: 56px;
+    width: 30%; 
+    margin-right: 20px; 
+    margin-bottom: 75px;
+}
+
+.about-content {
+    width: 70%; 
+    padding-right: 60px;
+}
+
+/*.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    top: -90px; /* Moves the image up by 10 pixels */
+   /* display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}*/
+
+.intro-section {
+    background-image: url('./images/bg\ intro.avif'); 
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    
+}
+
+.intro-image {
+    border-radius: 50%;
+    width: 500px; 
+    height: 500px; 
+    margin-bottom: 40px;
+    margin-left: 150px;
+    float: right;
+}
+
+.intro-content {
+    backdrop-filter: blur(5px); 
+    padding: 20px;
+    float: right;
+}
+h1 {
+    font-size: 3em; 
+    line-height: 1.2; 
+    text-align: center; 
+}
+#skills {
+    background-color:#855e35;  
+    padding: 20px; 
+    border-radius: 8px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+
+.skill-block {
+    background-color: #333;
+    color: #fff; 
+    padding: 15px 20px; 
+    border-radius: 5px; 
+    flex: 1 1 150px; 
+    text-align: center; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s; 
+
+}
+.skill-block:hover {
+    background-color: #ebb113;
+    color: white; 
+}
+.contact-section {
+    position: relative;
+    height: 400px; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+    background-color: #121213;
+    padding: 20px;
+}
+.contact-heading {
+    font-weight: bold; 
+    color: white;
+}
+
+.contact-info {
+   /* justify-content: flex-end; */
+   
+
+    background-color:rgb(36, 36, 36);/* rgba(12, 12, 12, 0.5); */
+
+    padding: 20px; 
+    border-radius: 10px; 
+    position:absolute; 
+    bottom: 55px; 
+    right: 20px; 
+    transform: translateX(-50%); 
+    width: 80%; 
+    max-width: 400px; 
+    
+   
+    
+}
+.education-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #1f1c1c;
+    background-image: url('C:\Users\MACFAST\Downloads\portfolio-main\portfolio\images\BGEDU.jpg'); 
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.education-item h3 {
+    margin: 0 0 10px;
+    color: #0056b3;
+}
+
+.education-item p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.icon {
+    color: #0056b3;
+    margin-right: 10px;
+}
+.education-item:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+/* Education Section Styles */
+#education {
+    background-color: #fffafa; 
+    padding: 40px; 
+    html {
+    scroll-behavior: smooth;
+}
+/* Navigation Bar Styles */
+.edubar {
+    background-color: rgb(34, 32, 32); 
+    height: 10vh;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 2vh;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    margin-right: auto; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+}
